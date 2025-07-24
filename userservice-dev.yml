@@ -1,10 +1,10 @@
-spring:
-  application:
-    name: userservice
-  config:
-    import: optional:configserver:http://localhost:8888/configserver
+# spring:
+#   application:
+#     name: userservice
+#   config:
+#     import: optional:configserver:http://localhost:8888/configserver
 server:
-  port: 8500    
+  port: 8500
   servlet:
     context-path: /userservice
 spring:
